@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+
+.lineargredient{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+button{
+    width: 35%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(6, 178, 32);
+    color: white;
+    font-size: 24px;
+}
